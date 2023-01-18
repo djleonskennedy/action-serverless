@@ -1,5 +1,6 @@
 # action-serverless
 
+```yml
 - name: Deploy lambdas and layers
         uses: djleonskennedy/action-serverless@main
         with:
@@ -12,3 +13,4 @@
           AWS_REGION: ${{ secrets.AWS_REGION }}
           DATABASE_URL: ${{ secrets.PRISMA_DATABASE_URL }}
           PRISMA_BINARY_TARGET: rhel-openssl-1.0.x
+```
